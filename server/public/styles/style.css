@@ -1,0 +1,84 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.index-point {
+    width: 24px;
+    height: 24px;
+    background-color: #dad5d2;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0 1px;
+    opacity: 0.5;
+}
+
+.active {
+    background-color: #ee100d;
+}
+#list {
+    padding: 0 0 0 19px;
+}
+.container {
+    width: 625px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.glyphicon {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.left {
+    width: 42px;
+    float: left;
+}
+
+.center {
+    width: 494px;
+    float: left;
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.right {
+    width: 42px;
+    float: left;
+}
+
+.spirit {
+    width: 593px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(http://fillmurray.com/593/300);
+    background-size: 625px;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+span {
+    color: #ffffff;
+    text-shadow: 2px 2px #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.person-name {
+    font-size: 39px;
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+
+.person-span, .person-city, .person-spirit {
+    display: none;
+}
